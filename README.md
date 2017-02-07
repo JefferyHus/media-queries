@@ -1,24 +1,24 @@
 # CSS Media queries
 
-## Html viewport meta
+#### Html viewport meta
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
-## External stylesheet
+#### External stylesheet
 
 ```html
 <link rel="stylesheet" type="text/css" href="smallscreen.css" media="only screen and (max-width: 480px)" />
 ```
 
-## Imported styles withing the style element
+#### Imported styles withing the style element
 
 ```css
 @import "smallscreen.css" only screen and (max-width: 480px);
 ```
 
-## Default css media rules
+#### Default css media rules
 
 This is the default screen, device sizes for a responsive design.
 
